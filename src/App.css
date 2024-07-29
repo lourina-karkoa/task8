@@ -18,6 +18,11 @@
 .navbr-bg{
   background-color: #ff8500;
 }
+.navbr-bg .nav2 a:hover{
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+}
 .navbr .nav-par1{
   font-size: 25px;
 }

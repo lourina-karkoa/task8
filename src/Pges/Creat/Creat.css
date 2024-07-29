@@ -1,0 +1,39 @@
+.creat-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.creat-form input{
+    width: 65%;
+    height: 50px;
+    background-color: #fdf7f2;
+    color: #282828;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ff8400 ;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.creat-form input::placeholder{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #28282875;
+}
+.creat-lk-button{
+    width: 65%;
+    height: 50px;
+    background-color: #282828;
+    color: #fdf7f2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ff8400 ;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 15px;
+}

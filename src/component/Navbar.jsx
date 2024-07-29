@@ -30,12 +30,12 @@ export default function Navbar() {
             <div>
             <FontAwesomeIcon icon={faBars} className="icominmobile" onClick={HandleChangingClass} />
             <div className={ChangeClass ? 'navHumbrger' : 'nav2'} >
-            <a href="#home">Home</a>
+            <a href={'/'}>Home</a>
             <a href="#Services">Services</a>
             <a href="#Portfolio">Portfolio</a>
             <a href="#Clients-Partners">Clients & Partners</a>
             <a href="#About Us">About Us</a>
-            <a href="#Let's Talk">Let's Talk</a>
+            <a href={'/task8/dash'}>Dashboard</a>
             </div>
             </div>
         </nav>
@@ -43,3 +43,4 @@ export default function Navbar() {
     )
     
 }
+// Let's Talk
